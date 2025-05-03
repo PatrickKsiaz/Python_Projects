@@ -22,6 +22,28 @@ print(3 * 3 + 3 / 3 - 3)
 print(3 * 3 + 3 / 3 - 3)
 print(3 * (3 + 3) / 3 - 3)
 
+#Number Manipulation
+bmi = 84 / (1.65 ** 2)
+print(bmi)
+
+print(int(bmi))
+print(round(bmi))
+
+####################
+score = 0
+height = 1.8
+is_winning = True
+
+# User scores a point 
+score -= 1 
+print(score)
+
+# f-stringss
+#print("Your score is" + str(score))
+
+print(f"Your score is {score}, your height is {height}, you are winning is {is_winning}")
+
+
 
 
 
