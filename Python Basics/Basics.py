@@ -44,8 +44,32 @@ print(score)
 print(f"Your score is {score}, your height is {height}, you are winning is {is_winning}")
 
 
-
 # Control Flow and Logical Operators
+
+
+# if, elif, else
+print("Welcome to the rollercoaster!")
+height = int(input("What is your height in cm? "))
+
+if height > 120:
+    print("You can ride the rollercoaster!")
+else:
+    print("Sorry, you have to grow taller before you can ride.")
+
+#Modulo Operator
+# % --> Modulo operator
+
+#Even number 12 % 2 == 0 
+#Odd number 13 % 2 == 1
+
+number_to_check - input(int("What is your number do you want to check? "))
+
+#print(number_to_check % 2)
+if number_to_check % 2 == 0:
+    print("Even")
+else:
+    (print("Odd"))
+
 
 
 
