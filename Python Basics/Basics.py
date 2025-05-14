@@ -108,6 +108,30 @@ else:
 
 
 
+#Python Lists 
+
+
+import  random
+import my_module
+
+random_integer = random.randint(a:1, b:10)
+print(random_integer)
+
+print(my_module.my_favourite_number)
+
+random_number_0_to_1_ = random.random
+
+#random.float - random.uniform(a:1, b:10)
+print(random_float)
+
+# random_heads_or_tails = random.randint(0, 1)
+if random_heads_or_tails == 0:
+    print("Heads")
+else:
+    print("Tails")
+
+
+
 
 
 
