@@ -130,6 +130,27 @@ if random_heads_or_tails == 0:
 else:
     print("Tails")
 
+# Radomisation and Pytho Lists
+
+states_of_america = ["Delaware", "Pennsylvania", "New Jersey", "Georgia", "Connecticut", "Massachusetts", "Maryland", "South Carolina", "New Hampshire", "Virginia", "New York", "North Carolina", "Rhode Island", "Vermont", "Kentucky", "Tennessee", "Ohio", "Louisiana", "Indiana", "Mississippi", "Illinois", "Alabama", "Maine", "Missouri", "Arkansas", "Michigan", "Florida", "Texas", "Iowa", "Wisconsin"]
+
+print(states_of_america[0])
+print(states_of_america[1])
+
+states_of_america.extend = ["New York", "New Jersey", "New Hampshire"]
+print(states_of_america)
+
+# Who pay the bill ? 
+
+friends = ["Angela", "James", "Lily", "Jack"]
+
+
+
+
+print("Alice")
+
+
+
 
 
 
