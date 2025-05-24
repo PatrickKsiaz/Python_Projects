@@ -171,6 +171,64 @@ for fruit in fruits:
 
 print(fruits)
 
+# Highest Score
+
+student_scores = [78, 65, 89, 86, 55, 91, 64, 89]
+
+total_exam_score = sum(student_scores)
+
+for score in student_scores:
+    sum += score
+
+# Minimum Value Manually 
+student_scores = [150, 142, 185, 120, 171, 184, 149, 24, 59, 68, 199, 78, 65, 89, 86, 55, 91, 64, 89]
+print(range(1, 10))
+
+# Start with the first value in the list as the lowest
+lowest_score = student_scores[0]
+
+# Loop through the list
+for score in student_scores:
+    if score < lowest_score:
+        lowest_score = score
+
+print(f"The lowest score is: {lowest_score}")
+
+
+# Fingind the Maximum Value Manually 
+
+student_scores = [150, 142, 185, 120, 171, 184, 149, 24, 59, 68, 199, 78, 65, 89, 86, 55, 91, 64, 89]
+
+# Start with the first value in the list as the highest
+highest_score = student_scores[0]
+
+# Loop through the list
+for score in student_scores:
+    if score > highest_score:
+        highest_score = score
+
+print(f"The highest score is: {highest_score}")
+
+
+# For loops and the(range) function
+
+#The Gause Challenge
+
+# Define the last number in the range
+n = 100
+
+# Using range and sum
+total = sum(range(1, 101))
+print("The total sum from 1 to 100 is:", total)
+
+
+# Print the result
+print("The total sum from 1 to 100 is:", total)
+
+
+
+
+
 
 
 
