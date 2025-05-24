@@ -161,6 +161,19 @@ vegetables = ["Carrots", "Broccoli", "Cauliflower", "Brussels Sprouts", "Asparag
 dirty_dozen = [fruits, vegetables]
 print(dirty_dozen)
 
+# Loops 
+
+fruits = ["Strawberry", "Blueberry", "Raspberry", "Blackberry", "Watermelon"]
+for fruit in fruits:
+    print(fruit)
+    print(fruit + " Pie")
+    print(fruits)
+
+print(fruits)
+
+
+
+
 
 
 
