@@ -228,6 +228,28 @@ print("The total sum from 1 to 100 is:", total)
 
 
 
+################################################################
+print("Hello")
+
+num_char = len("Hello")
+print(num_char)
+
+def my_function():
+    print("Hello")
+    print("Bye")
+
+my_function()
+
+# Defining Python Functions
+print("Hello")
+numer_char = len("Hello")
+print(numer_char)
+
+def my_function():
+    print("Hello")
+    print("Bye")
+
+
 
 
 
