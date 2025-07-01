@@ -250,6 +250,29 @@ def my_function():
     print("Bye")
 
 
+##################################################################
+ #Identation in Python
+    def my_function():
+        print("Hello")
+
+    def sky():
+        if sky == "clear":
+            print("It's a clear sky!")
+        elif sky == "cloudy":
+            print("It's a cloudy sky!")
+        print("Goodbye")
+    print("World")
+
+
+##############################################################
+while something_is_true:
+
+number_of_hurdles = 6 
+while number_of_hurdles > 0:
+    print(f"You have {number_of_hurdles} hurdles to jump over.")
+    number_of_hurdles -= 1
+    print("number_of_hurdles")
+
 
 
 
